@@ -1,0 +1,193 @@
+body {
+    font-family: "sans-serif", Roboto, Lato;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F8F8F8;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #818181;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main {
+    margin-left: 190px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.main .img-responsive{
+    margin: 0 auto;
+}
+
+.full-height{
+    height:100%;
+    width: 100%;
+}
+
+.page-title{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+section#home{
+    background: url(../images/bg.jpg) no-repeat center center/cover fixed;
+    background-size: 100% auto;
+    color: #000066;
+    position: relative;
+    height: 650px;
+    width: 1170px;
+    padding-top: 0px;
+}
+
+section#about{
+    background: url("../images/bg2.jpg") no-repeat fixed center/cover;
+    background-size: 100% auto;
+    color: #000000;
+    position: relative;
+    height: 650px;
+    width: 1170px;
+    padding-top: 0px;
+}
+
+.flow-text{
+    line-height: 2.88rem;
+    font-size: 1.76rem;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 600px)
+.flow-text {
+    line-height: 2.88rem;
+}
+
+#skills{
+    background: #E8E8E8 no-repeat fixed center/cover;
+    background-size: 100% auto;
+    color: #000000;
+    position: relative;
+    height: 650px;
+    width: 1170px;
+    padding-top: 0px;
+}
+
+.progress{
+    -webkit-appearance: none;
+    appearance: none;
+    width:80%;
+    height: 20px;
+}
+
+#project{
+    background: url("../images/bg2.jpg") no-repeat fixed center/cover;
+    background-size: 100% auto;
+    color: #000000;
+    position: relative;
+    height: 650px;
+    width: 1170px;
+    padding-top: 0px;
+}
+
+.all{
+    box-sizing: border-box;
+}
+
+.projectbody{
+    padding: 20px;
+   
+}
+
+/* Center website */
+.pmain {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 20px;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+#contact{
+    background: #E8E8E8 no-repeat fixed center/cover;
+    background-size: 100% auto;
+    color: #000000;
+    position: relative;
+    height: 650px;
+    width: 1170px;
+    padding-top: 0px;
+}
+
+#contact ul{
+    list-style-type: none;
+    line-height: 6.0rem;
+}
+
+#contact ul li a{
+    text-decoration: none;
+}
